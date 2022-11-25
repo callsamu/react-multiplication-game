@@ -53,3 +53,5 @@ function MultiplicationGame() {
     </Container>
   );
 }
+
+export default MultiplicationGame;
