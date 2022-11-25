@@ -1,9 +1,12 @@
 import { Container, VStack } from "@chakra-ui/react";
 import { useEffect, useReducer, useState } from "react";
+
 import QuestionPrompter from "./QuestionPrompter";
 import RangeSettings from "./RangeSettings";
 import AnswerPrompt from "./AnswerPrompt";
 import AnswerPanel from "./AnswerPanel";
+
+import * as consts from "./consts";
 
 function randomNumber(max: number) {
   return Math.floor(Math.random() * max + 1);
