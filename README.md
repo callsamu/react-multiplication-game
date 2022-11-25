@@ -14,6 +14,6 @@ npm run dev
 then, open `localhost:5173` in your browser.
 
 ## Screenshots
-[question](./question.png)
-[answer](./answer.png)
+![question](./question.png)
+![answer](./answer.png)
 
