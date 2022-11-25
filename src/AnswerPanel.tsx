@@ -12,7 +12,7 @@ type AnswerProps = {
   userAnswer: number | null
   questionRequest: QuestionRequest
 }
-function Answer(props: AnswerProps) {
+function AnswerPanel(props: AnswerProps) {
   const { answer, userAnswer } = props;
 
   const isCorrect = (answer === userAnswer);
@@ -28,3 +28,5 @@ function Answer(props: AnswerProps) {
     </Container>
   );
 }
+
+export default AnswerPanel;
