@@ -22,3 +22,6 @@ function AnswerPrompt(props: { submitAnswer: SetAnswer }) {
     </form>
   );
 }
+
+
+export default AnswerPrompt;
